@@ -67,6 +67,20 @@
     background-repeat: no-repeat;
 }
 
+.socios-header-img {
+    background: linear-gradient(#000000ab, #000000ab), url(../img/futuristic-technology-concept-gradient-background/3069841.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-header-img {
+    background: linear-gradient(#000000ab, #000000ab), url(../img/game-medieval-wooden-castle-door-prison-cartoon-background-fire-with-torch-wall-treasure-chest-gate-/2307-w064-n002-562B-p1-562.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .vgvalpo-gradient { background: linear-gradient(to left, var(--vgvalpo-color2), var(--vgvalpo-color3)); }
 .header-screen { height: 91vh; }
 .my-border-top { border-top: solid #342f52 1px; }
@@ -74,8 +88,26 @@
 .my-border { border: solid #342f52 1px; }
 .card-shadow { box-shadow: 0 6px 12px 0 #a49dc3; }
 
+.vgvalpo-gradient-btn { 
+    background: linear-gradient(to left, #DE6161, #2657EB);
+    transition: .3s; 
+}
+
+.vgvalpo-gradient-btn:hover { 
+    background: linear-gradient(to left, #b54f4f, #214ac7);
+    transition: .3s; 
+}
+
 .section-bg {
     background: url(../img/background.png); 
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-bg2 {
+    
+    background: url(../img/scene-with-green-field-bush/y0qg_sxld_170312.jpg); 
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,4 +169,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.socios-card {
+    border-top: solid 3px #ffffff;
+    border-bottom: solid 3px #ffffff;
+    transition: .3s;
+}
+
+.socios-card:hover {
+    border-bottom: solid 3px #2657EB;
 }

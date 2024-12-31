@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from '../img/logo-Photoroom.png'
+import Logo from '../img/gdv-icon2.PNG'
 
 export const FooterComponent = () => {
 
@@ -14,30 +14,30 @@ export const FooterComponent = () => {
                     <div className="links">
                         <h5 className="text-lg mb-3 text-miramar-blackcian font-bold">Acceso rápido</h5>
                         <ul className="footer-list">
-                            <Link to={'...'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Inicio</Link>
-                            <Link to={'...'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Sobre nosotros</Link>
-                            <Link to={'...'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Nuestros socios</Link>
-                            <Link to={'...'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Videojuegos</Link>
-                            <Link to={'...'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Contacto</Link>
+                            <Link to={'/'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Inicio</Link>
+                            <Link to={'/aboutus'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Sobre nosotros</Link>
+                            <Link to={'/socios'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Nuestros socios</Link>
+                            <Link to={'/videogames'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Videojuegos</Link>
+                            <Link to={'/contact'} className="text-white py-2 block vg-link vgvalpo-textcolor6 text-ms">Contacto</Link>
                         </ul>
                     </div>
                     <div className="footer-rrss">
                         <h5 className="text-lg mb-3 text-miramar-blackcian font-bold">Nuestras redes</h5>
                         <ul className="footer-list">
                             <li className="mb-3 flex text-center gap-2">
-                                <Link to={'...'} className="bg-facebook flex items-center justify-center w-9 h-9 rounded-lg">
+                                <Link to={'...'} target="_blank" className="bg-facebook flex items-center justify-center w-9 h-9 rounded-lg">
                                     <i class="bi bi-facebook text-white text-lg" style={{width: '27px', height: '27px'}}></i>
                                 </Link>
-                                <Link to={'...'} className="bg-youtube flex items-center justify-center w-9 h-9 rounded-lg">
+                                <Link to={'...'} target="_blank" className="bg-youtube flex items-center justify-center w-9 h-9 rounded-lg">
                                     <i class="bi bi-youtube text-white text-lg" style={{width: '27px', height: '27px'}}></i>
                                 </Link>
-                                <Link to={'...'} className="bg-discord flex items-center justify-center w-9 h-9 rounded-lg">
+                                <Link to={'...'} target="_blank" className="bg-discord flex items-center justify-center w-9 h-9 rounded-lg">
                                     <i class="bi bi-discord text-white text-lg" style={{width: '27px', height: '27px'}}></i>
                                 </Link>
-                                <Link to={'...'} className="bg-twitter-x flex items-center justify-center w-9 h-9 rounded-lg">
+                                <Link to={'...'} target="_blank" className="bg-twitter-x flex items-center justify-center w-9 h-9 rounded-lg">
                                     <i class="bi bi-twitter-x text-black text-lg" style={{width: '27px', height: '27px'}}></i>
                                 </Link>
-                                <Link to={'...'} className="bg-instagram flex items-center justify-center w-9 h-9 rounded-lg">
+                                <Link to={'...'} target="_blank" className="bg-instagram flex items-center justify-center w-9 h-9 rounded-lg">
                                     <i class="bi bi-instagram text-white text-lg" style={{width: '27px', height: '27px'}}></i>
                                 </Link>
                             </li>

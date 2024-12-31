@@ -6,19 +6,24 @@ import icon1 from '../img/icons/Prize.png';
 import icon2 from '../img/icons/Goal.png';
 import icon3 from '../img/icons/Eye.png';
 import profile from '../img/member2.png';
+import { useEffect } from "react";
 
 export const AboutusPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <div className="">
             <NavbarComponent />
 
-            <div className={`flex justify-center items-center header-screen aboutus-header-img`}>
+            {/* <div className={`flex justify-center items-center header-screen aboutus-header-img`}>
                 <div className={`flex justify-center md:items-center md:text-center text-white flex-col px-8`}>
-                    <h1 className="mb-5 leading-tight uppercase text-4xl md:text-6xl md:w-7/12">Juntos apoyamos el talento chileno en los <b className='font-normal vgvalpo-textcolor4'>videojuegos</b></h1>
+                    <h1 className="mb-5 leading-tight uppercase text-4xl md:text-6xl md:w-7/12 font-bold">Juntos apoyamos el talento chileno en los <b className='font-bold vgvalpo-textcolor4'>videojuegos</b></h1>
                     <p className="md:w-7/12 mb-8">¡Somos un gremio dedicado apoyar el talento chileno en videojuegos! Descubre experiencias únicas que reflejan nuestra cultura y pasión por lo videojuegos y mucho más.</p>
-                    <Link to={'...'} className={'vgvalpo-gradient rounded-md px-8 py-3 flex justify-center items-center'}>¡Unete al Gremio!</Link>
+                    <Link to={'...'} className={'vgvalpo-gradient-btn rounded-md px-8 py-3 flex justify-center items-center'}>¡Unete al Gremio!</Link>
                 </div>
-            </div>
+            </div> */}
 
             <section className='py-20 px-4 section-bg'>
                 <div className="mb-12 flex flex-col justify-center items-center text-center">
@@ -36,7 +41,7 @@ export const AboutusPage = () => {
                             </div>
                             <div className="p-4">
                                 <h5 className="text-black font-bold text-3xl mb-2 vgvalpo-textcolor3">Nuestro Gremio</h5>
-                                <p className="text-black text-sm vgvalpo-textcolor6">VGVALPO (Video Games Valpo), es un espacio dedicado a apoyar y fomentar la industria de videojuegos en nuestro país. Nuestro compromiso es potenciar el talento local, brindando recursos, formación y oportunidades para desarrolladores, creadores y entusiastas del gaming, ya seas un desarrollador experimentado o uno nuevo, en nuestro gremio encontrarás un lugar donde compartir ideas, aprender y crecer junto a otros. Únete a nosotros y se parte de la evolución de los videojuegos chilenos.</p>
+                                <p className="text-black text-sm vgvalpo-textcolor6">GDV es un espacio dedicado a apoyar y fomentar la industria de videojuegos en nuestro país. Nuestro compromiso es potenciar el talento local, brindando recursos, formación y oportunidades para desarrolladores, creadores y entusiastas del gaming, ya seas un desarrollador experimentado o uno nuevo, en nuestro gremio encontrarás un lugar donde compartir ideas, aprender y crecer junto a otros. Únete a nosotros y se parte de la evolución de los videojuegos chilenos.</p>
                             </div>
                         </div>
                     </div>

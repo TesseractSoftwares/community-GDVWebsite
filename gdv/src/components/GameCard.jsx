@@ -1,10 +1,17 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import xbox from '../img/plataforms/xbox.png'
-import nintendo from '../img/plataforms/nintendo.png'
-import steam from '../img/plataforms/steam.png'
-import playstation from '../img/plataforms/playstation.png'
 
-export const GameCard = ({ title, description, bgimg }) => {
+export const GameCard = ({ title, description, bgimg, gameplataforms }) => {
+    const [gamePlataforms, setGamePlataform] = useState([]);
+
+    const AddPlataform = () => {
+        setGamePlataform(gameplataforms);
+    };
+
+    useEffect(() => {
+        AddPlataform();
+    });
+
     return (
         <div className="w-72 bg-white card-shadow rounded-lg">
             <div className={`cardimg bg-black rounded-t-lg h-36 ${bgimg}`}></div>
@@ -15,10 +22,11 @@ export const GameCard = ({ title, description, bgimg }) => {
                     <div className="flex justify-between mt-4">
                         <Link to={'...'} className={'vgvalpo-bgcolor5 rounded-md px-6 text-sm py-2 flex justify-center items-center'}>Ver más</Link>
                         <div className="flex justify-center items-center gap-1">
-                            <img src={xbox} alt="" style={{width: '22px', height: '22px'}} />
-                            <img src={nintendo} alt="" style={{width: '22px', height: '22px'}} />
-                            <img src={playstation} alt="" style={{width: '22px', height: '22px'}} />
-                            <img src={steam} alt="" style={{width: '22px', height: '22px'}} />
+                            {
+                                gamePlataforms.map((p) => (
+                                    <Link to={p.url}><img src={p.name} alt="" style={{width: '22px', height: '22px'}} /></Link>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
