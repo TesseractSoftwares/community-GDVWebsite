@@ -1,20 +1,27 @@
-
-# Build Stage
+# Usamos una imagen base de Node.js para construir la app
 FROM node:16 AS build
-# Definir el directorio de trabajo en el contenedor
+
 WORKDIR /app
 
-# Copiar los archivos package.json y package-lock.json para instalar dependencias
-COPY package*.json ./
-
-# Instalar dependencias
+# Copia los archivos de dependencias y los instala
+COPY package.json package-lock.json ./
 RUN npm install
 
-# Copiar todo el código fuente al contenedor
-COPY . .
+# Copia el código fuente de la app y construye la aplicación para producción
+COPY . . 
+RUN npm run build
 
-# Exponer el puerto donde React escucha (3000 por defecto)
-EXPOSE 3000
+# Usamos una imagen base de Nginx para servir la app
+FROM nginx:alpine
 
-# Comando por defecto para iniciar el servidor en desarrollo
-CMD ["npm", "start"]
+# Copia el archivo de configuración personalizado de Nginx
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Copia los archivos de build generados por React al contenedor de Nginx
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expone el puerto 80
+EXPOSE 80
+
+# Ejecuta Nginx
+CMD ["nginx", "-g", "daemon off;"]
