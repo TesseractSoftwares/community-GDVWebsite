@@ -17,7 +17,7 @@ export const NavbarComponent = () => {
 
     return (
         <div className="NavbarComponent sticky top-0 z-10 w-full">
-            <nav className="vgvalpo-bgcolor1 px-6 py-5">
+            <nav className="vgvalpo-bgcolor1 px-6 py-5 my-border-bottom">
                 <div className="px-8 mx-auto flex justify-between items-center">
                     <img src={Logo} alt="" className='w-16' />
 

@@ -82,7 +82,7 @@
 }
 
 .vgvalpo-gradient { background: linear-gradient(to left, var(--vgvalpo-color2), var(--vgvalpo-color3)); }
-.header-screen { height: 91vh; }
+.header-screen { height: 92vh; }
 .my-border-top { border-top: solid #342f52 1px; }
 .my-border-bottom { border-bottom: solid #342f52 1px; }
 .my-border { border: solid #342f52 1px; }
@@ -143,6 +143,13 @@
 
 .bg-game4 { 
     background: url(../img/HeadsantchersGame.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contact { 
+    background: url(../img/team-working-animation-project.jpg);  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

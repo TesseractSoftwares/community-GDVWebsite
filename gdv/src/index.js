@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './styles/index.css';
 
-import { HomePage } from './pages/HomePage';
-import { GamePage } from './pages/GamesPage';
-import { AboutusPage } from './pages/AboutusPage';
-import { ErrorPage } from './pages/ErrorPage';
-import { SociosPage } from './pages/SociosPage';
-import { ContactPage } from './pages/ContactPage';
+import { HomePage } from './pages/HomePage/HomePage';
+import { GamePage } from './pages/GamePage/GamesPage';
+import { AboutusPage } from './pages/AboutusPage/AboutusPage';
+import { ErrorPage } from './pages/ErrorPage/ErrorPage';
+import { SociosPage } from './pages/SociosPage/SociosPage';
+import { ContactPage } from './pages/ContactPage/ContactPage';
 
 const router = createBrowserRouter([
   {

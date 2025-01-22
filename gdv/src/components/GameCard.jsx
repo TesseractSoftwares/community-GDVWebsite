@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export const GameCard = ({ title, description, bgimg, gameplataforms }) => {
+export const GameCard = ({ title, description, bgimg, link, gameplataforms }) => {
     const [gamePlataforms, setGamePlataform] = useState([]);
 
     const AddPlataform = () => {
@@ -20,7 +20,7 @@ export const GameCard = ({ title, description, bgimg, gameplataforms }) => {
                     <h5 className="text-black font-bold mb-2">{title}</h5>
                     <p className="text-black text-xs vgvalpo-textcolor6">{description}</p>
                     <div className="flex justify-between mt-4">
-                        <Link to={'...'} className={'vgvalpo-bgcolor5 rounded-md px-6 text-sm py-2 flex justify-center items-center'}>Ver más</Link>
+                        <Link to={link} className={'vgvalpo-bgcolor5 rounded-md px-6 text-sm py-2 flex justify-center items-center'}>Ver más</Link>
                         <div className="flex justify-center items-center gap-1">
                             {
                                 gamePlataforms.map((p) => (
