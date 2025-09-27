@@ -19,8 +19,8 @@ Contributions are welcome.
 
 ---
 
-## 💬 Community
-Join our Slack channel to connect with the community, ask questions, and collaborate:  
+## 💬 Tesseract Community
+Join our Slack channel to connect with the Tesseract community, ask questions, and collaborate:  
 👉 [Join Slack](https://join.slack.com/t/tesseractsoftwares/shared_invite/zt-39wa16aae-P9ALGrwvNSiOsrjPX2G6cg)
 
 ---
@@ -33,3 +33,4 @@ This project is under the
 - Commercial use is not permitted.  
 
 [License details](https://creativecommons.org/licenses/by-nc/4.0/)
+
