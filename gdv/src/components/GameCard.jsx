@@ -20,11 +20,11 @@ export const GameCard = ({ title, description, bgimg, link, gameplataforms }) =>
                     <h5 className="text-black font-bold mb-2">{title}</h5>
                     <p className="text-black text-xs vgvalpo-textcolor6">{description}</p>
                     <div className="flex justify-between mt-4">
-                        <Link to={link} className={'vgvalpo-bgcolor5 rounded-md px-6 text-sm py-2 flex justify-center items-center'}>Ver más</Link>
+                        <a href={link} target="_blank" rel="noopener noreferrer" className={'vgvalpo-bgcolor5 rounded-md px-6 text-sm py-2 flex justify-center items-center'}>See more</a>
                         <div className="flex justify-center items-center gap-1">
                             {
                                 gamePlataforms.map((p) => (
-                                    <Link to={p.url}><img src={p.name} alt="" style={{width: '22px', height: '22px'}} /></Link>
+                                    <a href={p.url} target="_blank" rel="noopener noreferrer"><img src={p.name} alt="Platform" style={{width: '22px', height: '22px'}} /></a>
                                 ))
                             }
                         </div>

@@ -148,6 +148,84 @@
     background-size: cover;
 }
 
+/* New game-specific background images */
+.bg-tormented-souls { 
+    background: url(../img/TormentedSouls_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-colorbound { 
+    background: url(../img/Colorbound_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-aura-echoes { 
+    background: url(../img/AuraEchoesofPain_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-arm-around { 
+    background: url(../img/ArmAround_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-spellrain { 
+    background: url(../img/Spellrain_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-astral-rot { 
+    background: url(../img/AstralRot_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-mix-forgotten { 
+    background: url(../img/MixTheForgotten_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-bulbo-belief { 
+    background: url(../img/BulbosBeliefSystem_header.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-spoonfool { 
+    background: url(../img/Spoonfool.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-lilly-willy { 
+    background: url(../img/Lilly&Willy.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-frogward { 
+    background: url(../img/Frogward.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-contact { 
     background: url(../img/team-working-animation-project.jpg);  
     background-position: center;

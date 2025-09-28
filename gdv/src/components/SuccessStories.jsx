@@ -22,9 +22,9 @@ export const SuccessStories = ({ title, description, image, gameplataforms, info
                     <div className="flex justify-center items-center gap-1">                                            
                     {
                         gamePlataforms.map((g) => (
-                            <Link to={g.url}>
-                                <img src={g.name} alt="" style={{width: '25px', height: '25px'}} />
-                            </Link>
+                            <a href={g.url} target="_blank" rel="noopener noreferrer">
+                                <img src={g.name} alt="Platform" style={{width: '25px', height: '25px'}} />
+                            </a>
                         ))
                     }
                     </div>
