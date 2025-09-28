@@ -1,4 +1,4 @@
-# 🎮 Game Development Valparaíso — Official Website
+# 🎮 Game Development Valparaíso — Official Website [GDV](https://www.gdvalparaiso.com/).
 
 Official website of the **Game Development Guild of Valparaíso**, built and maintained with support from [Tesseract](https://tesseractsoftwares.com/).
 
@@ -33,4 +33,5 @@ This project is under the
 - Commercial use is not permitted.  
 
 [License details](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
