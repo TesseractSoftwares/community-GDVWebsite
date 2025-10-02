@@ -1,4 +1,4 @@
-import aboutus from '../../../../img/team-working-animation-project.jpg';
+import aboutus from '../../../../img/AboutUSImages/GDV.jpg';
 import icon1 from '../../../../img/icons/Prize.png';
 import icon2 from '../../../../img/icons/Goal.png';
 import icon3 from '../../../../img/icons/Eye.png';
