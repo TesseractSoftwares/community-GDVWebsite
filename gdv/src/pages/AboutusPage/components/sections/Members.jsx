@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import profile1 from '../../../../img/GDV.jpg';
-import profile2 from '../../../../img/GDV_Meet.jpg';
-import profile3 from '../../../../img/member.png';
+import profile1 from '../../../../img/AboutUSImages/Alejandro.jpg';
+import profile2 from '../../../../img/AboutUSImages/Jacob.jpg';
+import profile3 from '../../../../img/AboutUSImages/Directorio_Sven (1).png';
 
 export const Members = () => {
     const members = [
