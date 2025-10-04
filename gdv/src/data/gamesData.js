@@ -1,7 +1,8 @@
 import steam from '../img/plataforms/steam.png';
+import itchio from '../img/icons/itchio-icon.png';
 
 // Platform objects for itch.io games
-const itchIo = { name: steam, url: '' }; // Using steam icon for itch.io games
+const itchIo = { name: itchio, url: '' }; // Using itch.io icon for itch.io games
 
 // Centralized games data for the entire website
 export const gamesData = [
@@ -82,27 +83,27 @@ export const gamesData = [
         description: 'The Sun is getting closer to the Earth, so it\'s up to Spoonfool to restore it to its original position! Can they do it? And could they collect all the Moons?',
         image: 'bg-spoonfool',
         link: 'https://outfind.itch.io/spoonfool-keep-your-cool',
-        platforms: [
-            {name: steam, url: 'https://outfind.itch.io/spoonfool-keep-your-cool'}
-        ]
+            platforms: [
+                {name: itchio, url: 'https://outfind.itch.io/spoonfool-keep-your-cool'}
+            ]
     },
     {
         title: 'Lilly & Willy',
         description: 'Lilly & Willy is a platformer about two sibling mice trying to escape from a lab full of traps and dangers — but only if they coordinate their moves!',
         image: 'bg-lilly-willy',
         link: 'https://outfind.itch.io/lilly-and-willy',
-        platforms: [
-            {name: steam, url: 'https://outfind.itch.io/lilly-and-willy'}
-        ]
+            platforms: [
+                {name: itchio, url: 'https://outfind.itch.io/lilly-and-willy'}
+            ]
     },
     {
         title: 'Frogward',
         description: 'You\'re a frog that has to keep moving to avoid being eaten by a crocodile! Hop across lily pads and platforms, use your tongue to launch yourself, and find the best route to escape the scary croc.',
         image: 'bg-frogward',
         link: 'https://outfind.itch.io/frogward',
-        platforms: [
-            {name: steam, url: 'https://outfind.itch.io/frogward'}
-        ]
+            platforms: [
+                {name: itchio, url: 'https://outfind.itch.io/frogward'}
+            ]
     }
 ];
 
